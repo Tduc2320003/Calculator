@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colors for the background 1 -->
+    <color name="blackStart">#060607</color>
+    <color name="blueBlack">#111f28</color>
+    <color name="greyEnd">#484e52</color>
+
+    <!-- Colors to add a little pop to the buttons -->
+    <color name="greyAccent">#afb9c5</color>
+    <color name="tanAccent">#e3cdb3</color>
+
+    <!-- Clear Button Colors -->
+    <color name="redBackground">#5a020b</color>
+    <color name="redAccent">#ff0000</color>
+
+    <!-- Equals Button Colors -->
+    <color name="greenBackground">#013300</color>
+    <color name="greenAccent">#2ffd64</color>
+
+    <!-- Math Operator Button Colors -->
+    <color name="purpleBackground">#330133</color>
+    <color name="purpleAccent">#de00de</color>
+
+<!--    set colors 2-->
+    <color name="Background_Color">#F5F5F5</color>
+    <color name="Text_Color">#212121</color>
+    <color name="Button_Color">#FF9800</color>
+    <color name="Button_Text_Color">#FFFFFF</color>
+    <color name="Button_arithmetic_Color">#FF5722</color>
+    <color name="Button_Color_sin">#2196F3</color>
+    <color name="Equals_Button_Color">#1976D2</color>
+    <color name="Result_Display_Text_Color">#212121</color>
+    <color name="Secondary_Text_Color">#757575</color>
+    <color name="blueAccent">#3C6970</color>
+
+</resources>
