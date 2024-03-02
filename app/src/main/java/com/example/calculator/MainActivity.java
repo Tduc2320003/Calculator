@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void ClearBtnPush(View view){
         display.setText("");
+        previousCalculation.setText("");
     }
     public void BackSpaceBtnPush(View view){
         int cursorPos = display.getSelectionStart();
@@ -113,5 +114,63 @@ public class MainActivity extends AppCompatActivity {
 
 
         display.setSelection(res.length());
+    } public void trigSinBTNPush(View view){
+        updateText("sin(");
+    }
+
+    public void trigCosBTNPush(View view){
+        updateText("cos(");
+    }
+
+    public void trigTanBTNPush(View view){
+        updateText("tan(");
+    }
+
+    public void trigArcSinBTNPush(View view){
+        updateText("arcsin(");
+    }
+
+    public void trigArcCosBTNPush(View view){
+        updateText("arccos(");
+    }
+
+    public void trigArcTanBTNPush(View view){
+        updateText("arctan(");
+    }
+
+    public void naturalLogBTNPush(View view){
+        updateText("ln(");
+    }
+
+    public void logBTNPush(View view){
+        updateText("log(");
+    }
+
+    public void sqrtBTNPush(View view){
+        updateText("sqrt(");
+    }
+
+    public void absBTNPush(View view){
+        updateText("abs(");
+    }
+
+    public void piBTNPush(View view){
+        updateText("pi");
+    }
+
+    public void eBTNPush(View view){
+        updateText("e");
+    }
+
+    public void xSquaredBTNPush(View view){
+        updateText("^(2)");
+    }
+
+    public void xPowerYBTNPush(View view){
+        updateText("^(");
+    }
+
+    public void primeBTNPush(View view){
+        updateText("ispr(");
     }
 }
